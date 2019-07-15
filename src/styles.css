@@ -1,0 +1,46 @@
+.todo-panel{
+    width: 400px;
+    height: 550px;
+    position: relative;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: deeppink;
+    box-shadow: 0 0 20px #212121
+}
+.form{
+    margin: 10px auto;
+    width: 350px;
+    height: 75px;
+    border-radius: 0px 0px 15px 15px;
+}
+#input{
+    height: 75px;
+    border-radius: 0px 0px 0px 15px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid rgb(15, 137, 194);
+}
+.button{
+    border-radius: 0px 0px 15px 0px;
+    width: 90px;
+    height: 81px;
+    background-color: rgb(15, 137, 194);
+    border: 2px solid rgb(15, 137, 194);
+}
+.todo-list{
+    position: relative;
+}
+.todo-item{
+    position: relative;
+    margin: 10px auto;
+    background-color:rgb(89, 169, 206); 
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgb(15, 137, 194);
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,78,255,1) 53%, rgba(0,212,255,1) 100%);
+}
